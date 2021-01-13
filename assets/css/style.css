@@ -1,0 +1,46 @@
+/* for experimenting */
+
+.bgb {
+   background-color: brown; 
+}
+
+.bgg {
+    background-color: rgb(35, 219, 59); 
+}
+
+.bgp {
+   background-color: rgb(240, 94, 142); 
+}
+
+.bgy {
+    background-color: rgb(241, 238, 47); 
+}
+
+
+
+/* CSS Starts Here */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+body {
+    background-color: #f0f7fa;
+    color: #172a3a;
+}
+
+.navbar a {
+    color: #172a3a;
+}
+
+.navbar-toggler span {
+    color: #172a3a;
+}
+
+
+.w-65 {
+    width: 65%;
+}
