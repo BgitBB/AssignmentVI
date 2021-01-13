@@ -27,9 +27,19 @@
   box-sizing: border-box;  
 }
 
+html {
+    font-size: 21px;
+}
+
 body {
     background-color: #f0f7fa;
     color: #172a3a;
+    font-size: 1rem;
+    font-family: karla, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: lora, sans-serif;
 }
 
 .navbar a {
@@ -43,4 +53,49 @@ body {
 
 .w-65 {
     width: 65%;
+}
+
+.ppic {
+    width: 165px;
+    height: 165px;
+}
+
+
+.edu ul {
+    list-style: none;
+}
+
+.edu div {
+    margin: -1.5rem 0 1rem 1.5rem;
+}
+
+.feedback .carousel-caption {
+    top: 1rem;
+    bottom: 0;
+    left: 5%;
+    right: 5%;
+}
+
+.feedback button {
+    padding: .2rem 1.3rem;
+    color: #044f3a;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    font-style: 1.1rem;
+    font-family: lora;
+    border-radius: 0;
+}
+
+.feedback button:hover {
+    color: #044f3a;
+    background-color:#ebebeb;
+    border-color: #f8f9fa;
+}
+
+.feedbacl .carousel-indicators {
+    position: static;
+}
+
+.feedback li {
+    background-color: #044f3a;
 }

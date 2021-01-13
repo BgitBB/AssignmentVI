@@ -14,6 +14,9 @@
         crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;500&family=Lora:ital@1&display=swap" rel="stylesheet">
 
 </head>
 
@@ -24,9 +27,10 @@
 
             <a class="navbar-brand invisible" href="index.html">BETEMARIAM MOGES</a>
 
-            <button class="navbar-toggler border-0 bgg" type="button" data-toggle="collapse" data-target="#colNav"
+            <button class="navbar-toggler border-0 bgg ml-auto" type="button" data-toggle="collapse" data-target="#colNav"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle
                     navigation">
+                <!-- <span><i class="navbar-toggler-icon bgp"></i></span> -->
                 <span><i class="fas fa-bars bgp"></i></span>
             </button>
 
@@ -59,8 +63,9 @@
 
 
     <!-- About -->
-    <div class="row wrap-reverse">
-        <div class="col-md-8">
+    <div class="row flex-wrap-reverse bgb">
+        <div class="col-md-8 bgg">
+            
             <p>
                 I am a student at Addis Ababa Institute of Technology of Addis Ababa University. I am currently studying
                 Information Technology at the Information Technology and Software Computing Depatment of the university.
@@ -75,38 +80,141 @@
                 much as I
                 could and make the best of it as much as I can. I may aim too high but I surely won't hit low.
             </p>
-        </div>
-        <div class="col-md-4">
-            <img src="./assets/images/circle-cropped.png" title="My Profile Picture" alt="My Progile Picture"></td>
 
-            <h2>Betemariam Moges</h2>
-            <p>Student</p>
-            <p>AAiT</p>
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-reddit"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fa fa-linkedin"></i>
-            <i class=""></i>
-            <i class=""></i>
-            <i class=""></i>
+        <!-- Interest and Education -->
+        <div class="row">
+
+      
+            <div class="col-sm-5">
+              <h3>Interests</h3>
+              <ul class="ml-4">
+                
+                <li>Knowledge sharing</li>
+                
+                <li>Mentoring</li>
+                
+                <li>Data analysis</li>
+                
+                <li>Data visualization</li>
+                
+                <li>Machine learning</li>
+                
+                <li>Literate programming</li>
+                
+            </ul>
+            </div>
+            
+      
+            
+            <div class="col-sm-7 edu">
+              <h4>Education</h4>
+              <!-- <ul class="ul-edu fa-ul"> -->
+                <ul>
+
+                <li>
+                  <!-- <i class="fa-li fas fa-graduation-cap"></i> -->
+                  <i class="fas fa-graduation-cap"></i>
+                  <div class="description">
+                    <p class="course">PhD in Developmental Psychology &amp; Quantitative Methods, 2008</p>
+                    <p class="institution">Vanderbilt University</p>
+                  </div>
+                </li>
+                
+                <li>
+                  <!-- <i class="fa-li fas fa-graduation-cap"></i> -->
+                  <i class="fas fa-graduation-cap"></i>
+                  <div class="description">
+                    <p class="course">MSc in Developmental Psychology, 2005</p>
+                    <p class="institution">Vanderbilt University</p>
+                  </div>
+                </li>
+                
+                <li>
+                  <!-- <i class="fa-li fas fa-graduation-cap"></i> -->
+                  <i class="fas fa-graduation-cap"></i>
+                  <div class="description">
+                    <p class="course">BSc in Applied Psychology, 2002</p>
+                    <p class="institution">Georgia Institute of Technology</p>
+                  </div>
+                </li>
+                
+              </ul>
+            </div>
+            
+      
+          </div>
+            
+        </div>
+        <div class="col-md-4 text-center bgp">
+            <img class="ppic" src="./assets/images/circle-cropped.png" title="My Profile Picture" alt="My Progile Picture"></td>
+
+            <h4>Betemariam Moges</h4>
+            <h5 class="text-muted">Student</h5>
+            <h5 class="text-muted">AAiT</h5>
+            <i class="fa-2x fab fa-facebook"></i>
+            <i class="fa-2x fab fa-reddit"></i>
+            <i class="fa-2x fab fa-twitter"></i>
+            <i class="fa-2x fab fa-linkedin"></i>
+            <i class="fa-2x fab fa-facebook"></i>
+            <i class="fa-2x fab fa-reddit"></i>
+            <i class="fa-2x fab fa-twitter"></i>
+            <i class="fa-2x fab fa-linkedin"></i>
         </div>
     </div>
 
 
 
 
-    <!-- Interest and Education -->
-
-
-
-
     <!-- Feedback -->
+    <div id="MySlide" class="feedback carousel slide w-100 ">
+        <ol class="carousel-indicators">
+            <li data-target="#MySlide" data-slide-to="0" class="active"></li>
+            <li data-target="#MySlide" data-slide-to="1"></li>
+            <li data-target="#MySlide" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner text-center">
+            <div class="carousel-item active">
+                <img src="assets/images/carousel.jpg" class="d-block w-100" alt="https://unsplash.com/@andresjasso?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">
+                <div class="carousel-caption bgb">
+                    <h5>“Betemariam's intriguing, and eloquent persentations, especially the
+                        ones he gave under the PASS club, captivate the audience and show how
+                        intelligent, creative, and risk-taker he is.”</h5>
+                    <button class="btn btn-primary my-3">🚀see my works</button>
+                </div>
+            </div>
+            <div class="carousel-item text-left">
+                <img src="assets/images/carousel.jpg" class="d-block w-100" alt="https://unsplash.com/@dominikmartin?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">
+                <div class="carousel-caption">
+                    <h5>Sneaker Shoe</h5>
+                    <button class="btn btn-primary my-3">🚀see my works</button>
+                </div>
+            </div>
+            <div class="carousel-item text-right">
+                <img src="assets/images/carousel.jpg" class="d-block w-100" alt="https://unsplash.com/@hermez777?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">
+                <div class="carousel-caption">
+                    <h5>Sneaker Shoe</h5>
+                    <button class="btn btn-primary my-3">🚀see my works</button>
+                </div>
+            </div>
+            
+            
+            
+        </div>
+        <a class="carousel-control-prev" href="#MySlide" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon bg-info" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#MySlide" role="button" data-slide="next">
+            <span class="carousel-control-next-icon bg-info" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
 
 
 
 
     <!-- Recent Hightlights -->
-
+    <br><br><br><br><br><br><br><br><br>
 
 
 
