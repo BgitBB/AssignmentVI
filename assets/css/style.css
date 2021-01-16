@@ -182,7 +182,7 @@ a:active, a:focus, a:hover {
 }
 
 
-.wrkshp-tlks a:not(:last-child) {
+.butn-link {
     border: 1px solid #06805e;
     margin: 5px .25rem .25rem .25rem;
     padding: 5px .4rem;
@@ -192,7 +192,7 @@ a:active, a:focus, a:hover {
     text-align: center;
 }
 
-.wrkshp-tlks a:not(:last-child):hover {
+.butn-link:hover {
     background-color: #06805e;
     color: white;
     text-decoration: none;
