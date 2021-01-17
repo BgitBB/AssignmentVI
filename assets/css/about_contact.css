@@ -1,0 +1,30 @@
+body {
+    background-color: burlywood;
+}
+
+.p-high {
+    padding: 7rem 14rem;
+    color: #f8f8f2;
+    background-color: burlywood;
+}
+
+
+
+div {
+    background-color: #f0f7fa;
+}
+
+.sb-btn {
+    font-family: lora, sans-serif;
+    font-size: .9rem;
+    text-transform: lowercase;
+    color: #06805e;
+    border: 1px solid #06805e;
+    cursor: pointer;
+    padding: 5px 1rem;
+}
+
+.sb-btn:hover {
+    background-color: #06805e;
+    color: white;
+}

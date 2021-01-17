@@ -1,3 +1,7 @@
 .col-lg-8 .row {
     margin-bottom: 4rem;
 }
+
+.h1 {
+    font-family: lora, sans-serif;
+}

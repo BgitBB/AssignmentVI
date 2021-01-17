@@ -1,457 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About/ Contacts | Betemariam Moges</title>
+    <title>Betemariam Moges</title>
     <link rel="icon" href="./assets/icons/icon.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/about_contact.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;500&family=Lora&display=swap" rel="stylesheet">
+
 </head>
-<body bgcolor="#fbf9f4">
+
+<body>
+    <!-- Nav -->
+    <div class="nav-cont w-80 mx-auto">
+        <nav class="navbar navbar-expand-md navbar-light sticky-top">
+
+            <a class="navbar-brand invisible" href="index.html">BETEMARIAM MOGES</a>
+
+            <button class="navbar-toggler border-0 ml-auto" type="button" data-toggle="collapse" data-target="#colNav"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle
+                    navigation">
+                <!-- <span><i class="navbar-toggler-icon bgp"></i></span> -->
+                <span><i class="fas fa-bars"></i></span>
+            </button>
+
+            <div class="collapse navbar-collapse  ext-center" id="colNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about_contact.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">BLOGS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="talk.html">TALKS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">PROJECTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resume.html">RESUME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=""><i class="fas fa-search"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </div>
+
+
+    <!-- About me section -->
+
+    <!-- About me -->
+    <div class="p-high w-80 text-center mx-auto ">
+        <h1>About me</h1>
+    </div>
+
+    <!-- the info -->
+    <div class="w-100 pt-3 pb-3">
+        <div class="w-80 mx-auto text-justify">
+            <p>
+                I am from Addis Ababa, Ethiopia, currently majoring IT at AAiT. I went tio Lideta Catholic Catherdral School for
+                High School and to Amigonian School School before that.
+            </p>
+            <div class="text-center">
+                <img src="./assets/images/graduation.jpg" alt="" width="50%">
+            </div>
+        
+            <p>
+                I am interested in Web Design, Application Development, Database Management among other things. Right now, I
+                spend most of my time at school, but if I'm not there, you would find me playing chess, reading books of Richard
+                Feynman, or spending time with my friends.
+            </p>
+            <div class="text-center">
+                <img src="./assets/images/tennis.jpg" alt="" width="50%">
+            </div>
+        
+            <p>
+                Please feel free to contact me. (You can find the contact form below.)
+            </p>
+        </div>
+    </div>
     
-    <!-- Container -->
-    <table align="center" width="83%" cellspacing="0" cellpadding="0">
+    
+
+
+
+
+    <!-- Contact form -->
+    
+    <!-- "Get in touch" -->
+    <div class="p-high w-80 mx-auto text-center">
+        <h1>Get in touch</h1>
+    </div>
+
+    <!-- Form -->
+    <div class="w-100">
+        <div class="w-80 mx-auto pt-3 pb-5 mb-0">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h1>Hi there!</h1>
+                </div>
+                <div class="col-lg-8">
+                    <form action="">
+                        <div class="form-group">
+                            <input class="form-control" type="text" name="name" id="name" placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="email" name="email" id="email" placeholder="Your email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" id="message" rows="5" placeholder="Your message" required></textarea>
+                        </div>
+                        <button type="submit" class="sb-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+    
+    
+    
+
+
+    <!-- Footer -->
+    <div class="w-100 mt-0 pt-5">
+        <div class="ft-cont w-80 mx-auto">
+            <div class="footer position-relative text-center">
+                <div class="license">
+                    <a href="">LICENSE: CC-BY-SA <br>
+                        <i class="fab fa-creative-commons fa-2x"></i>
+                        <i class="fab fa-creative-commons-by fa-2x"></i>
+                        <i class="fab fa-creative-commons-sa fa-2x"></i>
+                    </a>
         
         
-        <!-- Nav -->
-        <tr>
-            <td height="100px">
-                <table align="right" cellspacing="0" cellpadding="0px" width="43%">
-                    <tr>
-                        <td>
-                            <Big><a href="blog.html">BLOG</a></Big>
-                        </td>
-                        <td>
-                            <Big><a href="talk.html">TALKS</a></Big>
-                        </td>
-                        <td>
-                            <Big><a href="projects.html">PROJECTS</a></Big>
-                        </td>
-                        <td>
-                            <Big><a href="about_contact.html">ABOUT/CONTACT</a></Big>
-                        </td>
-                        
-                    </tr>
-                    <tr>
-                        <td colspan="5" height="40px"><hr color="#e13d3d"></td>
-                    </tr>
-                    
-                </table>
-                
-                <table cellspacing="0" align="left" cellpadding="7px">
-                    <tr>
-                        <td>
-                            <Big><Big><a href="index.html">Betemariam Moges</a></Big></Big>
-                        </td>
-                    </tr>
-                </table>
-                
-                
-                
-            </td>
-        </tr>
-    </table>
+                </div>
+                <div class="ftr">
+                    <p>© Betemariam Moges 2021 · Made with
+                        <a href=""><i class="fab fa-html5"></i></a>,
+                        <a href=""><i class="fab fa-css3-alt"></i></a>, and
+                        <a href=""><i class="fab fa-bootstrap4"></i></a>.
+                    </p>
+                </div>
+                <!-- <span class="top positioin-absolute"><a class="top positioin-absolute" href="#"><i class="fas fa-chevron-up fa-2x"></i></a></span> -->
+                <a class="top position-absolute" href="#"><i class="fas fa-chevron-up fa-2x"></i></a>
+            </div>
+        </div>
+    </div>
     
     
-    
-    <!-- Container -->
-    <!-- About Me Header -->
-    <table width="100%" cellspacing="0" cellpadding="0" bgcolor="#666563" height="125px"> 
-        <tr>
-            <td align="center"><h2>About Me</h2></td>
-        </tr>
-    </table>    
 
 
-    <!-- Container -->
-    <!-- About Me Body -->
-    <table align="center" width="69%" cellspacing="0" cellpadding="0">
-        <tr>
-            <td>
-                <p>
-                    I am from Addis Ababa, Ethiopia, currently majoring IT at AAiT. I went tio Lideta Catholic Catherdral School for High School and to Amigonian School School before that.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td align="center"><img src="./assets/images/graduation.jpg" alt="" width="50%"></td>
-        </tr>
-        <tr>
-            <td>
-                <p>
-                    I am interested in Web Design, Application Development, Database Management among other things. Right now, I spend most of my time at school, but if I'm not there, you would find me playing chess, reading books of Richard Feynman, or spending timw with my friends.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td align="center"><img src="./assets/images/tennis.jpg" alt="" width="50%"></td>
-        </tr>
-        <tr>
-            <td>
-                <p>
-                    While at OHSU, I became an avid user of the statistical programming language R, both in the lab as a Principal Investigator and in the classroom as a professor. I developed a passion for programming and education, and during my tenure at OHSU I developed and taught multiple graduate-level data science courses and workshops. I also trained the Office of Research Impact at the Oregon Clinical & Translational Research Institute to use R, and consulted with the University of Oregon College of Education on the development of a graduate data science specialization track. I received an Excellence in Education award from OHSU in 2018.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>
-                    You can follow my current work for RStudio Education on GitHub. In my free time, I love spending time with my family and my two-year-old daughter. Thank you so much for reading.
-                <br><br>
-                <hr color="#e13d3d">
-                </p>
-            </td>
-        </tr>
-        
-    </table>
-    
-    <!-- Container -->
-    <!-- Experiences -->
-    <table width="62%" cellspacing="0" cellpadding="0" align="center">
-        <tr>
-            <td width="40%" align="right" valign="top">
-                <big><big><big>Experience</big></big></big>
-            </td>
-            <td width="10%">
-                <table cellspacing="0" cellpadding="0" align="center">
-                    <tr>
-                        <td align="center">
-                            <table bgcolor="#e13d3d" cellspacing="0" cellpadding="10px">
-                                <tr>
-                                    <td></td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td align="center">
-                            <pre>|
-|
-|
-|
-|
-                            </pre>
-                        </td>
-                    </tr>
-            
-                    <tr>
-                        <td align="center">
-                            <table bgcolor="#e13d3d" cellspacing="0" cellpadding="10">
-                                <tr>
-                                    <td></td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td align="center">
-                            <pre>|
-|
-|
-|
-|
-                            </pre>
-                        </td>
-                    </tr>
-            
-                    <tr>
-                        <td align="center">
-                            <table bgcolor="#e13d3d" cellspacing="0" cellpadding="10">
-                                <tr>
-                                    <td></td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td align="center">
-                            <pre>|
-|
-|
-|
-|
-                            </pre>
-                        </td>
-                    </tr>
-            
-                    <tr>
-                        <td align="center">
-                            <table bgcolor="#e13d3d" cellspacing="0" cellpadding="10">
-                                <tr>
-                                    <td></td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td align="center">
-                            <pre>|
-|
-|
-|
-|
-                            </pre>
-                        </td>
-                    </tr>
-            
-                    <tr>
-                        <td align="center">
-                            <table bgcolor="#e13d3d" cellspacing="0" cellpadding="10">
-                                <tr>
-                                    <td></td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td align="center">
-                            <pre>|
-|
-|
-|
-|
-                            </pre>
-                        </td>
-                    </tr>
-            
-                    <tr>
-                        <td align="center">
-                            <table bgcolor="#e13d3d" cellspacing="0" cellpadding="10">
-                                <tr>
-                                    <td></td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>        
-                    
-                </table>
-
-            </td>
-            <td width="40%">
-                <table>
-                    <tr>
-                        <td>
-                            <table align="right" cellspacing="0" cellpadding="5" border="1" width="265px">
-                                <tr>
-                                    <td>
-                                        <p><b>Tutor and Fundraiser</b></p>
-                                        <p>YWCA</p>
-                                        <p>2018</p>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <table align="right" cellspacing="0" cellpadding="5" border="1" width="265px">
-                                <tr>
-                                    <td>
-                                        <p><b>Member</b></p>
-                                        <p>IT Club</p>
-                                        <p>2017-18</p>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <table align="right" cellspacing="0" cellpadding="5" border="1" width="265px">
-                                <tr>
-                                    <td>
-                                        <p><b>Founder and President</b></p>
-                                        <p>Physics Experimental Club (PEC)</p>
-                                        <p>2017-18</p>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <table align="right" cellspacing="0" cellpadding="5" border="1" width="265px">
-                                <tr>
-                                    <td>
-                                        <p><b>Member(2014-16), President(2016-18)</b></p>
-                                        <p>Math Club</p>
-                                        <p>2014-18</p>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <table align="right" cellspacing="0" cellpadding="5" border="1" width="265px">
-                                <tr>
-                                    <td>
-                                        <p><b>Presenter</b></p>
-                                        <p>Physics Astronomy and Space Science Club</p>
-                                        <p>2014-18</p>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <table align="right" cellspacing="0" cellpadding="5" border="1" width="265px">
-                                <tr>
-                                    <td>
-                                        <p><b>First Runner-up</b></p>
-                                        <p>IKEN Scientifica</p>
-                                        <p>2014-15</p>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                </table>
-
-            </td>
-        </tr>
-        <tr>
-            <td colspan="3">
-                <br><br><br><br>
-                <hr color="#e13d3d">
-                <br><br>
-            </td>
-        </tr>
-    </table>
-
-    <!-- Container -->
-    <!-- Get In Touch Header -->
-    <table width="100%" cellspacing="0" cellpadding="0" bgcolor="#666563" height="157px"> 
-        <tr>
-            <td align="center">
-                <h2>Get In Touch</h2>
-            </td>
-        </tr>
-    </table>
-
-    <br>
-
-    <!-- Container -->
-    <!-- Get In Touch Body/Form -->
-    <form action="mailto:it.betemariam.moges@gmail.com" method="POST" enctype="UTF-8">
-        <table align="center" width="62%" cellspacing="25px" cellpadding="0">
-            <tr>
-                <td rowspan="10" align="center" valign="top" width="40%"><big><big><big>Hi there!</big></big></big></td>
-                <td align="right">
-                    <input type="text" placeholder="Name" required pattern="[a-zA-Z|1-3]{2,20}"  title="4 to 50 letters only." size="65%">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="number" min="8" step="1" placeholder="Age">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <table>
-                        <tr>
-                            <td>Favorite Color: &nbsp;</td>
-                            <td><input type="color" placeholder="Favorite Color"></td>
-                        </tr>
-                    </table>
-                    
-                </td>
-            </tr>
-            <tr>
-                <td align="right">
-                    <input type="email" placeholder="Email" required size="65%">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="password" placeholder="Password" required pattern="[^]{8,20}" title="8 to 20 characters only." size="65%">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <table>
-                        <tr>
-                            <td>Date of Birth: &nbsp;</td>
-                            <td><input type="date" placeholder="Date of Birth" min="2000-01-01" max="2018-01-01"></td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <table>
-                        <tr>
-                            <td>Continent: &nbsp;</td>
-                            <td><select name="continent">
-                        <option value="af">Africa</option>
-                        <option value="as">Asia</option>
-                        <option value="au">Australia</option>
-                        <option value="eu">Europe</option>
-                        <option value="am">North America</option>
-                        <option value="sa">South America</option>
-                        </select></td>
-                        </tr>
-                    </table>
-                    
-                </td>
-            </tr>
-            <tr>
-                <td align="right">
-                    <textarea  rows="10" cols="65%" required placeholder="message"></textarea>
-                </td>
-            </tr>
-            <tr>
-                <td align="left">
-                    <input type="submit" title="send">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <ul>
-                        <li><a href="">Contact Me on Telegram</a></li>
-                        <li><a href="">Discuss on My PhyMath Group</a></li>
-                        <li><a href="">Follow Me on Twitter</a></li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
-                    <br>
-                    <br>
-                    <br>
-                    <hr color="#e13d3d">
-                </td>
-            </tr>
-        </table>
-    </form>
-
-    
 
 
-    <!-- Container -->
-    <!-- Footer/Copyright-->
-    <table align="center" width="69%" cellspacing="0" cellpadding="0">
-        
-        <tr>
-            <td align="center" colspan="2">
-                <br><br><br><br><br><br><br><br>
-                <p>Developed by Betemariam M. &copy; 2020</p>
-                <br>
-            </td>
-            
-        </tr>
-    </table>
-
-    
-
-    
-
-
-    
-
-    
-    
-    
-    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
