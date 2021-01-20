@@ -1,0 +1,50 @@
+.filter {
+    background-color: #06805e;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.filter a {
+    color: white;
+    font-family: lora, sans-serif;
+    font-size: 1rem;
+}
+
+.filter div:first-of-type {
+    background-color: #044f3a ;
+}
+
+.filter div:hover {
+    background-color: #08b182;
+}
+
+.filter a:hover {
+    text-decoration: none;
+}
+
+/* #sch:hover {
+
+}
+
+#soft:hover {
+
+}
+
+#lab:hover {
+
+}
+
+#char:hover {
+
+}
+
+#bks:hover {
+
+} */
+
+
+
+.card {
+    margin-bottom: 10px;
+}
